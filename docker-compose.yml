@@ -2,7 +2,7 @@ version: '3.5'
 
 services: 
   bungeecord:
-    container_name: bungeecord
+    container_name: minecraft_bungeecord
     image: openjdk:jdk-buster
     ports: 
       - "25565:25565"
@@ -25,9 +25,16 @@ services:
     working_dir: /usr/src
     command: bash -c "java -Xmx1024m -Xms1024M -jar *.jar nogui"
 
-networks:
-  my-net:
-    driver: bridge
-    ipam:
-      config:
-        - subnet: 172.20.0.0/24
+  
+  survival:
+    container_name: minecraft_survival
+    image: openjdk:jdk-buster
+    ports: 
+      - "25571:25571"
+    expose: 
+      - "25571"
+    volumes: 
+      - "./mine_server/survival:/usr/src"
+    working_dir: /usr/src
+    command: bash -c "java -Xmx1024m -Xms1024M -jar *.jar nogui"
+
