@@ -14,13 +14,14 @@ listeners:
   host: 0.0.0.0:25565
   max_players: 30
   tab_size: 60
-  force_default_server: false
+  force_default_server: true
 remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
   default:
   - bungeecord.command.server
   - bungeecord.command.list
+  - bungeehub.use
   admin:
   - bungeecord.command.alert
   - bungeecord.command.end
@@ -49,4 +50,8 @@ servers:
   lobby:
     motd: '&1Just another BungeeCord - Forced Host'
     address: 192.168.0.31:25570
+    restricted: false
+  survival:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 192.168.0.31:25571
     restricted: false
