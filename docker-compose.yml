@@ -1,0 +1,33 @@
+version: '3.5'
+
+services: 
+  bungeecord:
+    container_name: bungeecord
+    image: openjdk:jdk-buster
+    ports: 
+      - "25565:25565"
+    expose: 
+      - "25565"
+    volumes: 
+      - "./mine_server/BungeeCord:/usr/src"
+    working_dir: /usr/src
+    command: bash -c "java -Xmx512m -Xms512M -jar *.jar nogui"
+    
+  lobby:
+    container_name: minecraft_lobby
+    image: openjdk:jdk-buster
+    ports: 
+      - "25570:25570"
+    expose: 
+      - "25570"
+    volumes: 
+      - "./mine_server/lobby:/usr/src"
+    working_dir: /usr/src
+    command: bash -c "java -Xmx1024m -Xms1024M -jar *.jar nogui"
+
+networks:
+  my-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
