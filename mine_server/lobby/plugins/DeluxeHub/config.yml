@@ -47,7 +47,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 # Check for latest SpigotMC updates (recommended).
-check-updates: true
+check-updates: false
 
 # Disable specific worlds
 disabled-worlds:
@@ -90,7 +90,7 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&lDeluxeHub 3 &7(%online%/%online_max%)"
+  title: "&d&lKiunerWorld &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
     - "&e&lPlayer:"
@@ -116,14 +116,13 @@ tablist:
   # Modify the header of the tablist
   header:
     - ""
-    - "&d&lDeluxeHub &7(%online%/%online_max%)"
+    - "&d&lLista de Jugadores &7(%online%/%online_max%)"
     - ""
 
   # Modify the footer of the tablist
   footer:
     - ""
-    - "&6&lWebsite &fwww.examplemc.net"
-    - "&e&lStore &fbuy.examplemc.net"
+    - "&6&lAdm &fMrPina"
     - ""
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -150,18 +149,8 @@ announcements:
   announcements:
     test1:
       - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Rate this plugin 5 stars on Spigot!</center>"
-      - "&r"
-    test2:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7This plugin was created by &eItsLewizzz</center>"
-      - "&r"
-    test3:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Configure these messages in the &bconfig.yml</center>"
+      - "<center>&e&lBienvenido</center>"
+      - "<center>&7Mas informacion en el libro</center>"
       - "&r"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -281,30 +270,20 @@ join_leave_messages:
 
 # Actions executed upon join
 join_events:
-  - "[MESSAGE] &8&m+---------------***---------------+"
-  - "[MESSAGE] &r"
-  - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
-  - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fwww.examplemc.net"
-  - "[MESSAGE] &r  &3&lSTORE &fstore.examplemc.net"
-  - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
-  - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
-  - "[MESSAGE] &8&m+---------------***---------------+"
-  - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
+  - "[TITLE] &b&lKiunerWorld;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
-  - "[GAMEMODE] survival"
+  - "[GAMEMODE] adventure"
   - "[EFFECT] SPEED;1"
 
 join_settings:
   # Should we teleport the player to the spawn point (if set) on join?
-  spawn_join: true
+  spawn_join: false
   # Should we heal the player?
   heal: true
   # Should we extinguish the player?
   extinguish: true
   # Should we clear their inventory?
-  clear_inventory: false
+  clear_inventory: true
   # Spawn a firework on join
   firework:
     # Should we send a firework on join?
