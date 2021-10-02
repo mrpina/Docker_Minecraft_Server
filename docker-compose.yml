@@ -38,3 +38,15 @@ services:
     working_dir: /usr/src
     command: bash -c "java -Xmx1024m -Xms1024M -jar *.jar nogui"
 
+
+  creative:
+    container_name: minecraft_creative
+    image: openjdk:jdk-buster
+    ports: 
+      - "25572:25572"
+    expose: 
+      - "25572"
+    volumes: 
+      - "./mine_server/creative:/usr/src"
+    working_dir: /usr/src
+    command: bash -c "java -Xmx1024m -Xms1024M -jar *.jar nogui"
