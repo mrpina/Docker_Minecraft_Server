@@ -125,5 +125,11 @@
     },
     "done": false
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2021-10-09 09:33:26 +0000"
+    },
+    "done": false
+  },
   "DataVersion": 2730
 }

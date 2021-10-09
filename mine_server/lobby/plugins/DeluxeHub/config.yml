@@ -95,9 +95,6 @@ scoreboard:
     - "&7&m----------------------"
     - "&e&lPlayer:"
     - "  &f%player%"
-    - ""
-    - "&e&lRank:"
-    - "  &f%vault_rank%"
     - "&7&m----------------------"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -150,7 +147,7 @@ announcements:
     test1:
       - "&r"
       - "<center>&e&lBienvenido</center>"
-      - "<center>&7Mas informacion en el libro</center>"
+      - "<center>&7Más información en el libro</center>"
       - "&r"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -317,10 +314,8 @@ custom_join_items:
         - "&7Right-click to see information about the server!"
       actions:
         - "[MESSAGE] &r"
-        - "[MESSAGE] &e&lServer Information"
+        - "[MESSAGE] &e&lInformación del servidor"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fwww.examplemc.net"
-        - "[MESSAGE] &cStore: &fbuy.examplemc.net"
         - "[MESSAGE] &dDiscord: &fdiscord.examplemc.net"
         - "[MESSAGE] &r"
     server_selector:
