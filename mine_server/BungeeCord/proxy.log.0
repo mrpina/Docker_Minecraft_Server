@@ -1642,3 +1642,79 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 10:29:36 [INFO] Disconnecting 0 connections
 10:29:36 [INFO] Disabling plugins
 10:29:36 [INFO] Closing IO threads
+17:34:58 [INFO] Using mbed TLS based native cipher.
+17:34:58 [INFO] Using zlib based native compressor.
+17:34:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:c5a9047:1604
+17:34:58 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+17:34:58 [INFO] Epoll is working, utilising it!
+17:34:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+17:34:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+17:34:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+17:34:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+17:34:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+17:34:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+17:34:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [WARNING] Forced host server pvp is not defined
+17:34:59 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:c5a9047:1604 by SpigotMC
+17:34:59 [INFO] Listening on /0.0.0.0:25565
+17:35:57 [INFO] [/192.168.0.14:51874] <-> InitialHandler has pinged
+17:36:04 [INFO] [/192.168.0.14:51876] <-> InitialHandler has pinged
+17:36:08 [INFO] [/192.168.0.14:51878] <-> InitialHandler has connected
+17:36:09 [INFO] [MrPina99] <-> ServerConnector [lobby] has connected
+17:36:45 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+17:36:45 [INFO] [MrPina99] <-> DownstreamBridge <-> [lobby] has disconnected
+17:37:06 [INFO] [MrPina99] -> UpstreamBridge has disconnected
+17:37:06 [INFO] [MrPina99] <-> DownstreamBridge <-> [survival] has disconnected
+17:37:06 [INFO] [/192.168.0.14:51880] <-> InitialHandler has pinged
+17:50:53 [INFO] [/192.168.0.14:51882] <-> InitialHandler has connected
+17:50:53 [INFO] [MrPina99] <-> ServerConnector [lobby] has connected
+17:51:06 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+17:51:06 [INFO] [MrPina99] <-> DownstreamBridge <-> [lobby] has disconnected
+17:52:34 [INFO] [MrPina99] <-> ServerConnector [lobby] has connected
+17:52:34 [INFO] [MrPina99] <-> DownstreamBridge <-> [survival] has disconnected
+17:52:43 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+17:52:43 [INFO] [MrPina99] <-> DownstreamBridge <-> [lobby] has disconnected
+18:15:15 [INFO] [MrPina99] disconnected with: §f§fServer closed
+18:15:15 [INFO] [MrPina99] -> UpstreamBridge has disconnected
+18:15:15 [INFO] [MrPina99] <-> DownstreamBridge <-> [survival] has disconnected
+18:16:12 [INFO] [MrPina99,/192.168.0.14:51894] <-> InitialHandler has connected
+18:16:12 [INFO] [MrPina99] <-> ServerConnector [lobby] has connected
+18:16:15 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+18:16:15 [INFO] [MrPina99] <-> ServerConnector [survival] has disconnected
+18:16:54 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+18:16:54 [INFO] [MrPina99] <-> ServerConnector [survival] has disconnected
+18:18:42 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+18:18:42 [INFO] [MrPina99] <-> ServerConnector [survival] has disconnected
+18:20:08 [INFO] [MrPina99] <-> ServerConnector [survival] has connected
+18:20:08 [INFO] [MrPina99] <-> DownstreamBridge <-> [lobby] has disconnected
+18:20:55 [INFO] [MrPina99] <-> ServerConnector [lobby] has connected
+18:20:55 [INFO] [MrPina99] <-> DownstreamBridge <-> [survival] has disconnected
+18:34:43 [INFO] [MrPina99] -> UpstreamBridge has disconnected
+18:34:43 [INFO] [MrPina99] <-> DownstreamBridge <-> [lobby] has disconnected
+18:34:43 [INFO] [/192.168.0.14:51896] <-> InitialHandler has pinged
+18:34:44 [INFO] [MrPina99,/192.168.0.14:51898] <-> InitialHandler has connected
+18:34:44 [INFO] [MrPina99] <-> ServerConnector [lobby] has connected
+18:42:04 [INFO] Closing listener [id: 0xfcf7c4c9, L:/0.0.0.0:25565]
+18:42:04 [INFO] Closing pending connections
+18:42:04 [INFO] Disconnecting 1 connections
+18:42:04 [INFO] [MrPina99] disconnected with: §f[Proxy] Proxy restarting.
+18:42:04 [INFO] [MrPina99] -> UpstreamBridge has disconnected
+18:42:04 [INFO] [MrPina99] <-> DownstreamBridge <-> [lobby] has disconnected
+18:42:04 [INFO] Disabling plugins
+18:42:04 [INFO] Closing IO threads
